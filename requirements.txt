@@ -1,4 +1,5 @@
 aiofiles
+kurigram
 Flask
 bard
 SpeechRecognition
