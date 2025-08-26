@@ -10,27 +10,27 @@ load_dotenv()
 API_ID = 24648630
 API_HASH = "2fb7a8358803a958d6993e73a5da136d"
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = "7701373418:AAGeQ9j3DKZhTODbDNaKMzwYCIeW9vuGK-k"
+BOT_TOKEN = "2075723190:AAG95kAyamzkzlsZ7bNd-V-ImYZJ9NdpEC4"
 # Add Owner Username without @ 
-OWNER_USERNAME = getenv("OWNER_USERNAME","Pragyan")
+OWNER_USERNAME = getenv("OWNER_USERNAME","AKBORANA4")
 # Get Your bot username
-BOT_USERNAME = getenv("BOT_USERNAME" , "PragyanMusicBot")
+BOT_USERNAME = getenv("BOT_USERNAME" , "lofidemobot")
 # Don't Add style font 
-BOT_NAME = getenv("BOT_NAME" , "Pragyan Music")
+BOT_NAME = getenv("BOT_NAME" , "LOFI Music")
 #get Your Assistant User name
-ASSUSERNAME = getenv("ASSUSERNAME" , "PragyanMusicAssistant")
-EVALOP = list(map(int, getenv("EVALOP","8025794193").split()))
+ASSUSERNAME = getenv("ASSUSERNAME" , "martinezmichelleww711")
+EVALOP = list(map(int, getenv("EVALOP","948247711").split()))
 
 # Get your mongo url from cloud.mongodb.com
-MONGO_DB_URI = "mongodb+srv://PihuMusic:PihuMusic@cluster0.w3eiu.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_DB_URI = "mongodb+srv://chatbot10:j@cluster0.9esnn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DEEP_API = getenv("DEEP_API","ef488aaf-e253-4cd9-b115-d24ece89a5c7")
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 9999999))
 
 # Chat id of a group for logging bot's activities
-LOGGER_ID = "@PRAGYANMUSICLOGS"
+LOGGER_ID = "@noah_azz"
 
 # Get this value from  on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 8025794193))
+OWNER_ID = int(getenv("OWNER_ID", 948247711))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
